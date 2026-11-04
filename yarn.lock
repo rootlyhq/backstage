@@ -6427,11 +6427,9 @@
   integrity sha512-ewFXqrQHlFsgc09MK5jP5iR7vumV/BYayNC6PgJO2LPe8vrnNFyjQjSppfEngITi0qvfKtzFvgKymGheFM9UOA==
 
 "@types/react-dom@*", "@types/react-dom@<18.0.0", "@types/react-dom@^17":
-  version "17.0.17"
-  resolved "https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.17.tgz#2e3743277a793a96a99f1bf87614598289da68a1"
-  integrity sha512-VjnqEmqGnasQKV0CWLevqMTXBYG9GbwuE6x3VetERLh0cq2LTptFE73MrQi2S7GkKXCf2GgwItB/melLnxfnsg==
-  dependencies:
-    "@types/react" "^17"
+  version "17.0.26"
+  resolved "https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.26.tgz#fa7891ba70fd39ddbaa7e85b6ff9175bb546bc1b"
+  integrity sha512-Z+2VcYXJwOqQ79HreLU/1fyQ88eXSSFh6I3JdrEHQIfYSI0kCQpTGvOrbE6jFGGYXKsHuwY9tBa/w5Uo6KzrEg==
 
 "@types/react-helmet@^6.1.0":
   version "6.1.5"
@@ -7286,25 +7284,22 @@ acorn-walk@^7.1.1:
   resolved "https://registry.npmjs.org/acorn-walk/-/acorn-walk-7.1.1.tgz#345f0dffad5c735e7373d2fec9a1023e6a44b83e"
   integrity sha512-wdlPY2tm/9XBr7QkKlq0WQVgiuGTX6YWPyRyBviSoScBuLfTVQhvwg6wJ369GJ/1nPfTLMfnrFIfjqVg6d+jQQ==
 
-acorn-walk@^8.1.1, acorn-walk@^8.2.0:
-  version "8.2.0"
-  resolved "https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.2.0.tgz#741210f2e2426454508853a2f44d0ab83b7f69c1"
-  integrity sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==
+acorn-walk@^8.1.1, acorn-walk@^8.3.4:
+  version "8.3.5"
+  resolved "https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.3.5.tgz#8a6b8ca8fc5b34685af15dabb44118663c296496"
+  integrity sha512-HEHNfbars9v4pgpW6SO1KSPkfoS0xVOM/9UzkJltjlsHZmJasxg8aXkuZa7SMf8vKGIBhpUsPluQSqhJFCqebw==
+  dependencies:
+    acorn "^8.11.0"
 
 acorn@^7.1.1:
   version "7.4.1"
   resolved "https://registry.npmjs.org/acorn/-/acorn-7.4.1.tgz#feaed255973d2e77555b83dbc08851a6c63520fa"
   integrity sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==
 
-acorn@^8.2.4, acorn@^8.5.0, acorn@^8.7.0:
-  version "8.7.0"
-  resolved "https://registry.npmjs.org/acorn/-/acorn-8.7.0.tgz#90951fde0f8f09df93549481e5fc141445b791cf"
-  integrity sha512-V/LGr1APy+PXIwKebEWrkZPwoeoF+w1jiOBUmuxuiUIaOHtob8Qc9BTrYo7VuI5fR8tqsy+buA2WFooR5olqvQ==
-
-acorn@^8.4.1, acorn@^8.7.1:
-  version "8.7.1"
-  resolved "https://registry.npmjs.org/acorn/-/acorn-8.7.1.tgz#0197122c843d1bf6d0a5e83220a788f278f63c30"
-  integrity sha512-Xx54uLJQZ19lKygFXOWsscKUbsBZW0CPykPhVQdhIeIwrbPmJzqeASDInc8nKBnp/JT6igTs82qPXz069H8I/A==
+acorn@^8.11.0, acorn@^8.15.0, acorn@^8.2.4, acorn@^8.4.1, acorn@^8.5.0, acorn@^8.7.1:
+  version "8.19.0"
+  resolved "https://registry.npmjs.org/acorn/-/acorn-8.19.0.tgz#6b26fd97ce1cc9dc50bdf7ad305e9f1384d4f28a"
+  integrity sha512-oJlA3XiRm7Cyk6qFD2Jn8ak9B7jSy0qy00ADO3+8dpT0LSjFihQYv4C02LFCSYJV3Q37xYwwRy5m+IpIiUzqWw==
 
 add-stream@^1.0.0:
   version "1.0.0"
@@ -25373,12 +25368,12 @@ vm-browserify@^1.0.1:
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
 vm2@^3.9.6:
-  version "3.9.9"
-  resolved "https://registry.npmjs.org/vm2/-/vm2-3.9.9.tgz#c0507bc5fbb99388fad837d228badaaeb499ddc5"
-  integrity sha512-xwTm7NLh/uOjARRBs8/95H0e8fT3Ukw5D/JJWhxMbhKzNh1Nu981jQKvkep9iKYNxzlVrdzD0mlBGkDKZWprlw==
+  version "3.12.2"
+  resolved "https://registry.npmjs.org/vm2/-/vm2-3.12.2.tgz#0a8cab04496918a94911498d6f42f3d3cc06df7e"
+  integrity sha512-LRHt4xU6eXshlZEcSZVrTehLGxRDjHvjmFPGwEp4xGpZX61QzH6Xm9wK2nU7XAp36V1w2xILAL1LwxVkgD1Ipw==
   dependencies:
-    acorn "^8.7.0"
-    acorn-walk "^8.2.0"
+    acorn "^8.15.0"
+    acorn-walk "^8.3.4"
 
 vscode-languageserver-types@^3.15.1:
   version "3.15.1"
@@ -25853,9 +25848,9 @@ ws@^7.3.1, ws@^7.4.6:
   integrity sha512-KMvVuFzpKBuiIXW3E4u3mySRO2/mCHSyZDJQM5NQ9Q9KHWHWh0NHgfbRMLLrceUK5qAL4ytALJbpRMjixFZh8A==
 
 ws@^8.0.0, ws@^8.3.0:
-  version "8.8.0"
-  resolved "https://registry.npmjs.org/ws/-/ws-8.8.0.tgz#8e71c75e2f6348dbf8d78005107297056cb77769"
-  integrity sha512-JDAgSYQ1ksuwqfChJusw1LSJ8BizJ2e/vVu5Lxjq3YvNJNlROv1ui4i+c/kUUrPheBvQl4c5UbERhTwKa6QBJQ==
+  version "8.22.1"
+  resolved "https://registry.npmjs.org/ws/-/ws-8.22.1.tgz#60d427870e8272ddb10c7fc5cdf00a70eaec369e"
+  integrity sha512-oyL6OPYme/CmiFvNuGzeoxCJ4nOrZE2O1FwM9MWM1AsGri6nLXB2pg+lNA8aLeXMSav0J6eIVS1j6vUPzUtK9g==
 
 ws@^8.4.2:
   version "8.5.0"
